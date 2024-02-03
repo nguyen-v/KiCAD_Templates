@@ -121,6 +121,6 @@
 (condition "A.Reference =='TP*'"))
 
 # ----------------------------------- Fiducials Courtyard -------------------------------------------
-(rule "Test Point Courtyard Exclusion"
+(rule "Fiducials Courtyard Exclusion"
 (constraint courtyard_clearance (min -1mm))
 (condition "A.Reference =='FM*'"))
