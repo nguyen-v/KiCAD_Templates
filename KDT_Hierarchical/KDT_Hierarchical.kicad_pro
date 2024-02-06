@@ -428,7 +428,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "KDT_Hierachical.kicad_pro",
+    "filename": "KDT_Hierarchical.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -641,7 +641,7 @@
       "step": "STEP/amulet_controller.step",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "Templates/KDT_Template_Fab.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
