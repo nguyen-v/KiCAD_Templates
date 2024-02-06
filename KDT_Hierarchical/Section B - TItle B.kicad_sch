@@ -5,7 +5,7 @@
   (paper "A3")
 
   (title_block
-    (title "MCU - I/Os")
+    (title "Sheet Title B")
     (date "Last Modified Date")
     (rev "${REVISION}")
     (company "${COMPANY}")

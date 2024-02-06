@@ -115,7 +115,7 @@
       (effects (font (face "Arial") (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "KDT_Hierachical"
+      (project "KDT_Hierarchical"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c" (page "4"))
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202" (page "4"))
       )
@@ -133,7 +133,7 @@
       (effects (font (face "Arial") (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "KDT_Hierachical"
+      (project "KDT_Hierarchical"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c" (page "5"))
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202" (page "5"))
       )
