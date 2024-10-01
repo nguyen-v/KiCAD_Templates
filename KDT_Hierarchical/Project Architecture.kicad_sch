@@ -1,142 +1,332 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 43756dca-f8f6-4179-bbe2-5af9585c666d)
-
-  (paper "A3")
-
-  (title_block
-    (title "Project Architecture")
-    (date "Last Modified Date")
-    (rev "${REVISION}")
-    (company "${COMPANY}")
-  )
-
-  (lib_symbols
-  )
-
-
-  (polyline (pts (xy 195.58 58.42) (xy 195.58 69.85))
-    (stroke (width 0) (type default))
-    (uuid 1e3c70a2-22df-46ef-a52f-0f821498dc0c)
-  )
-  (polyline (pts (xy 195.58 55.88) (xy 195.58 44.45))
-    (stroke (width 0) (type default))
-    (uuid 41045457-e885-4cf4-93f2-cdba80791e7b)
-  )
-  (polyline (pts (xy 243.84 85.09) (xy 243.84 93.98))
-    (stroke (width 0) (type default))
-    (uuid 5f799f7d-3b4c-429a-be80-1688600486e9)
-  )
-  (polyline (pts (xy 243.84 96.52) (xy 243.84 105.41))
-    (stroke (width 0) (type default))
-    (uuid f890bb63-7be7-434c-9d54-8102b0d37829)
-  )
-
-  (arc (start 243.86 96.5) (mid 244.2349 95.6049) (end 245.13 95.23)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid 055071ba-7216-47dc-af92-e615f4e56e85)
-  )
-  (arc (start 195.58 55.88) (mid 195.2051 56.7751) (end 194.31 57.15)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid 463357f7-f9d2-46fa-b0b6-a6251e6ce150)
-  )
-  (arc (start 241.32 82.53) (mid 243.1102 83.2798) (end 243.86 85.07)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid 73f6865c-4f24-4b13-a9e7-cf8bfa00ee32)
-  )
-  (arc (start 194.31 57.15) (mid 195.2051 57.5249) (end 195.58 58.42)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid a134b516-cfaf-437e-b6e0-fd4fe5086d29)
-  )
-  (arc (start 243.86 105.39) (mid 243.1161 107.1861) (end 241.32 107.93)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid a8227c96-ad98-472e-856e-98a46a3c9121)
-  )
-  (arc (start 245.13 95.23) (mid 244.2349 94.8551) (end 243.86 93.96)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid cc4cf7fb-4bd9-4be9-81d7-4f1f2d80469e)
-  )
-  (arc (start 195.58 44.45) (mid 196.3239 42.6539) (end 198.12 41.91)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid d1fe5f0f-24cb-4f3d-baf1-1b36c0a6f68e)
-  )
-  (arc (start 198.12 72.39) (mid 196.3298 71.6402) (end 195.58 69.85)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid d8a608aa-d710-4d73-9273-2b52adac6230)
-  )
-
-  (text_box "Description"
-    (at 176.53 54.61 0) (size 17.145 5.08)
-    (stroke (width -0.0001) (type default))
-    (fill (type none))
-    (effects (font (size 1.905 1.905) (thickness 0.381) bold (color 0 0 0 1)) (justify right top))
-    (uuid 51bc3fdc-86f1-4742-b7d8-53f1faaab343)
-  )
-  (text_box "[${#}] ${TITLE}"
-    (at 144.78 20.32 0) (size 130.81 12.7)
-    (stroke (width -0.0001) (type default))
-    (fill (type none))
-    (effects (font (face "Times New Roman") (size 8 8) (thickness 1.2) bold (color 162 22 34 1)))
-    (uuid 7fa5cc40-6c97-487c-9cc7-412504f68533)
-  )
-  (text_box "Description"
-    (at 245.11 92.71 0) (size 26.015 5.1)
-    (stroke (width -0.0001) (type default))
-    (fill (type none))
-    (effects (font (size 1.905 1.905) (thickness 0.381) bold (color 0 0 0 1)) (justify left top))
-    (uuid ea2adac5-d133-46b2-a7ff-14a70e2ad344)
-  )
-
-  (text "Page 4" (at 236.22 66.04 0)
-    (effects (font (size 2.54 2.54) bold (color 20 60 40 1)) (justify right bottom) (href "#4"))
-    (uuid 978bb74e-ca07-4b21-b2dc-19b812f717e9)
-  )
-  (text "Page 5" (at 236.22 104.14 0)
-    (effects (font (size 2.54 2.54) bold (color 100 70 50 1)) (justify right bottom) (href "#5"))
-    (uuid c54c21a6-b82f-4883-adfa-9cf31abe82f0)
-  )
-
-  (sheet (at 200.66 46.99) (size 36.83 20.32) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 128 255 128 0.5000))
-    (uuid 7d5a1283-086b-46b0-8df7-a9850521fb5e)
-    (property "Sheetname" "Section A - Title A" (at 200.66 45.9609 0)
-      (effects (font (size 1.905 1.905) bold) (justify left bottom))
-    )
-    (property "Sheetfile" "Section A - Title A.kicad_sch" (at 200.66 67.8946 0)
-      (effects (font (face "Arial") (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "KDT_Hierarchical"
-        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c" (page "4"))
-        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202" (page "4"))
-      )
-    )
-  )
-
-  (sheet (at 200.66 85.09) (size 36.83 20.32) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 255 200 0 0.5020))
-    (uuid e6015f1e-cbce-46f4-85e1-3d5463a17dc1)
-    (property "Sheetname" "Section B - Title B" (at 200.66 84.0609 0)
-      (effects (font (size 1.905 1.905) bold) (justify left bottom))
-    )
-    (property "Sheetfile" "Section B - TItle B.kicad_sch" (at 200.66 105.9946 0)
-      (effects (font (face "Arial") (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "KDT_Hierarchical"
-        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c" (page "5"))
-        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202" (page "5"))
-      )
-    )
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "43756dca-f8f6-4179-bbe2-5af9585c666d")
+	(paper "A3")
+	(title_block
+		(title "Project Architecture")
+		(date "Last Modified Date")
+		(rev "${REVISION}")
+		(company "${COMPANY}")
+	)
+	(lib_symbols)
+	(polyline
+		(pts
+			(xy 195.58 58.42) (xy 195.58 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e3c70a2-22df-46ef-a52f-0f821498dc0c")
+	)
+	(polyline
+		(pts
+			(xy 195.58 55.88) (xy 195.58 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41045457-e885-4cf4-93f2-cdba80791e7b")
+	)
+	(polyline
+		(pts
+			(xy 243.84 85.09) (xy 243.84 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f799f7d-3b4c-429a-be80-1688600486e9")
+	)
+	(polyline
+		(pts
+			(xy 243.84 96.52) (xy 243.84 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f890bb63-7be7-434c-9d54-8102b0d37829")
+	)
+	(arc
+		(start 243.86 96.5)
+		(mid 244.2349 95.6049)
+		(end 245.13 95.23)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 055071ba-7216-47dc-af92-e615f4e56e85)
+	)
+	(arc
+		(start 195.58 55.88)
+		(mid 195.2051 56.7751)
+		(end 194.31 57.15)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 463357f7-f9d2-46fa-b0b6-a6251e6ce150)
+	)
+	(arc
+		(start 241.32 82.53)
+		(mid 243.1102 83.2798)
+		(end 243.86 85.07)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 73f6865c-4f24-4b13-a9e7-cf8bfa00ee32)
+	)
+	(arc
+		(start 194.31 57.15)
+		(mid 195.2051 57.5249)
+		(end 195.58 58.42)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a134b516-cfaf-437e-b6e0-fd4fe5086d29)
+	)
+	(arc
+		(start 243.86 105.39)
+		(mid 243.1161 107.1861)
+		(end 241.32 107.93)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a8227c96-ad98-472e-856e-98a46a3c9121)
+	)
+	(arc
+		(start 245.13 95.23)
+		(mid 244.2349 94.8551)
+		(end 243.86 93.96)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid cc4cf7fb-4bd9-4be9-81d7-4f1f2d80469e)
+	)
+	(arc
+		(start 195.58 44.45)
+		(mid 196.3239 42.6539)
+		(end 198.12 41.91)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d1fe5f0f-24cb-4f3d-baf1-1b36c0a6f68e)
+	)
+	(arc
+		(start 198.12 72.39)
+		(mid 196.3298 71.6402)
+		(end 195.58 69.85)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d8a608aa-d710-4d73-9273-2b52adac6230)
+	)
+	(text_box "Description"
+		(exclude_from_sim no)
+		(at 176.53 54.61 0)
+		(size 17.145 5.08)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify right top)
+		)
+		(uuid "51bc3fdc-86f1-4742-b7d8-53f1faaab343")
+	)
+	(text_box "[${#}] ${TITLE}"
+		(exclude_from_sim no)
+		(at 144.78 20.32 0)
+		(size 130.81 12.7)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 8 8)
+				(thickness 1.2)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+		)
+		(uuid "7fa5cc40-6c97-487c-9cc7-412504f68533")
+	)
+	(text_box "Description"
+		(exclude_from_sim no)
+		(at 245.11 92.71 0)
+		(size 26.015 5.1)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "ea2adac5-d133-46b2-a7ff-14a70e2ad344")
+	)
+	(text "Page 4"
+		(exclude_from_sim no)
+		(at 236.22 66.04 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+				(color 20 60 40 1)
+			)
+			(justify right bottom)
+			(href "#4")
+		)
+		(uuid "978bb74e-ca07-4b21-b2dc-19b812f717e9")
+	)
+	(text "Page 5"
+		(exclude_from_sim no)
+		(at 236.22 104.14 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+				(color 100 70 50 1)
+			)
+			(justify right bottom)
+			(href "#5")
+		)
+		(uuid "c54c21a6-b82f-4883-adfa-9cf31abe82f0")
+	)
+	(sheet
+		(at 200.66 46.99)
+		(size 36.83 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 128 255 128 0.5000)
+		)
+		(uuid "7d5a1283-086b-46b0-8df7-a9850521fb5e")
+		(property "Sheetname" "Section A - Title A"
+			(at 200.66 45.9609 0)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Section A - Title A.kicad_sch"
+			(at 200.66 67.8946 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "KDT_Hierarchical"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 200.66 85.09)
+		(size 36.83 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 200 0 0.5020)
+		)
+		(uuid "e6015f1e-cbce-46f4-85e1-3d5463a17dc1")
+		(property "Sheetname" "Section B - Title B"
+			(at 200.66 84.0609 0)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Section B - TItle B.kicad_sch"
+			(at 200.66 105.9946 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "KDT_Hierarchical"
+				(path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202"
+					(page "5")
+				)
+			)
+		)
+	)
 )
